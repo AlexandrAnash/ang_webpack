@@ -5,3 +5,4 @@ a2_spa/node_modules/
 packages/
 a2_spa/typings/
 a2_spa/obj/
+a2_spa/dist_webpack/

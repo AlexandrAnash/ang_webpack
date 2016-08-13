@@ -8,6 +8,7 @@ import {RouteConfig, RouterLink, ROUTER_DIRECTIVES, RouteParams} from '@angular/
 })
 
 @RouteConfig([
+    
 ])
 export class AppComponent implements OnInit {
     
