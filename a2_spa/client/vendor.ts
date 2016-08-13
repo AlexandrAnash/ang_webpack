@@ -8,6 +8,7 @@ import '@angular/platform-browser';
 import '@angular/platform-browser-dynamic';
 import '@angular/router-deprecated';
 import '@angular/upgrade'
+import 'zone.js/dist/zone'
 
 // RxJS
 import 'rxjs';
