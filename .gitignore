@@ -1,0 +1,7 @@
+a2_spa/bin/
+a2_spa/client/lib/@angular/common/src/facade/async.js.map
+a2_spa/client/lib/
+a2_spa/node_modules/
+packages/
+a2_spa/typings/
+a2_spa/obj/
