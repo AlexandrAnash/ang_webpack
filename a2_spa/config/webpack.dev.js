@@ -17,11 +17,7 @@ module.exports = webpackMerge(commonConfig, {
     },
     watch: true,
     plugins: [
-        new ExtractTextPlugin('[name].css'),
-        new BrowserSyncPlugin({
-            proxy: 'http://localhost:80/a2_spa/',
-            port: 3000
-        })
+        new ExtractTextPlugin('[name].css')
     ],
 
     devServer: {

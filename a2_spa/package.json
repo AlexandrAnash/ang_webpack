@@ -5,7 +5,7 @@
   "scripts": {
     "clean": "gulp clean",
     "compile": "gulp compile",
-    "build": "gulp build",
+    "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail",
     "start": "webpack-dev-server --inline --progress --port 8080",
     "server": "concurrent --kill-others \"gulp watch\" \"lite-server\"",
     "postinstall": "typings install"
